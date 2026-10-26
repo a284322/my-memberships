@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* ContentView.swift */; };
+		A00000000000000000000012 /* SubscriptionTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* SubscriptionTrackerApp.swift */; };
+		B00000000000000000000003 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* Subscription.swift */; };
+		B00000000000000000000004 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* Catalog.swift */; };
+		D00000000000000000000001 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000001 /* NotificationService.swift */; };
+		D00000000000000000000002 /* ReminderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000002 /* ReminderViews.swift */; };
+		D00000000000000000000003 /* SubscriptionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000003 /* SubscriptionDetailView.swift */; };
+		D00000000000000000000004 /* SubscriptionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000004 /* SubscriptionEditor.swift */; };
+		F00000000000000000000001 /* Membership.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000001 /* Membership.swift */; };
+		F00000000000000000000002 /* BenefitViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00000000000000000000002 /* BenefitViews.swift */; };
+G00000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = G00000000000000000000002; };
+H00000000000000000000001 /* ReceiptParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = I00000000000000000000001; };
+H00000000000000000000002 /* ReceiptImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = I00000000000000000000002; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* SubscriptionTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTrackerApp.swift; sourceTree = "<group>"; };
+		A0000000000000000000000A /* SubscriptionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000001 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		C00000000000000000000001 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		C00000000000000000000002 /* ReminderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViews.swift; sourceTree = "<group>"; };
+		C00000000000000000000003 /* SubscriptionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailView.swift; sourceTree = "<group>"; };
+		C00000000000000000000004 /* SubscriptionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionEditor.swift; sourceTree = "<group>"; };
+		E00000000000000000000001 /* Membership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Membership.swift; sourceTree = "<group>"; };
+		E00000000000000000000002 /* BenefitViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitViews.swift; sourceTree = "<group>"; };
+G00000000000000000000002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+I00000000000000000000001 /* ReceiptParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptParser.swift; sourceTree = "<group>"; };
+I00000000000000000000002 /* ReceiptImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptImportView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0000000000000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000002 /* Assets.xcassets */,
+				I00000000000000000000001 /* ReceiptParser.swift */,
+				I00000000000000000000002 /* ReceiptImportView.swift */,
+				A00000000000000000000008 /* ContentView.swift */,
+				A00000000000000000000009 /* SubscriptionTrackerApp.swift */,
+				B00000000000000000000001 /* Subscription.swift */,
+				B00000000000000000000002 /* Catalog.swift */,
+				C00000000000000000000001 /* NotificationService.swift */,
+				C00000000000000000000002 /* ReminderViews.swift */,
+				C00000000000000000000003 /* SubscriptionDetailView.swift */,
+				C00000000000000000000004 /* SubscriptionEditor.swift */,
+				E00000000000000000000001 /* Membership.swift */,
+				E00000000000000000000002 /* BenefitViews.swift */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000A /* SubscriptionTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* SubscriptionTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0000000000000000000000B /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */;
+			buildPhases = (
+				A0000000000000000000000C /* Sources */,
+				A0000000000000000000000D /* Frameworks */,
+				A0000000000000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubscriptionTracker;
+			productName = SubscriptionTracker;
+			productReference = A0000000000000000000000A /* SubscriptionTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "SubscriptionTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* SubscriptionTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0000000000000000000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+ G00000000000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0000000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+ H00000000000000000000002 /* ReceiptImportView.swift in Sources */,
+ H00000000000000000000001 /* ReceiptParser.swift in Sources */,
+				A00000000000000000000011 /* ContentView.swift in Sources */,
+				A00000000000000000000012 /* SubscriptionTrackerApp.swift in Sources */,
+				B00000000000000000000003 /* Subscription.swift in Sources */,
+				B00000000000000000000004 /* Catalog.swift in Sources */,
+				D00000000000000000000001 /* NotificationService.swift in Sources */,
+				D00000000000000000000002 /* ReminderViews.swift in Sources */,
+				D00000000000000000000003 /* SubscriptionDetailView.swift in Sources */,
+				D00000000000000000000004 /* SubscriptionEditor.swift in Sources */,
+				F00000000000000000000001 /* Membership.swift in Sources */,
+				F00000000000000000000002 /* BenefitViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A0000000000000000000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "내 구독";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SubscriptionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+ ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "내 구독";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SubscriptionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+ ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "SubscriptionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000006 /* Debug */,
+				A00000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0000000000000000000000B /* Build configuration list for PBXNativeTarget "SubscriptionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0000000000000000000000F /* Debug */,
+				A00000000000000000000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}

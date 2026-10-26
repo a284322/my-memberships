@@ -1,0 +1,30 @@
+# Local tools, user settings, caches and generated output
+.DS_Store
+**/.gradle/
+**/.kotlin/
+**/build/
+**/.idea/
+**/local.properties
+**/xcuserdata/
+**/*.xcuserstate
+**/DerivedData/
+**/xcshareddata/WorkspaceSettings.xcsettings
+.android-tools/
+# Credentials and signing materials
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.pem
+*.key
+# Local execution records and data
+*.log
+*.apk
+*.aab
+*.ipa
+Review/
+Validation/
